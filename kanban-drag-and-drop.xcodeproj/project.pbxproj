@@ -11,6 +11,8 @@
 		28AF67C82AE9A74000980DA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AF67C72AE9A74000980DA6 /* ContentView.swift */; };
 		28AF67CA2AE9A74100980DA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28AF67C92AE9A74100980DA6 /* Assets.xcassets */; };
 		28AF67CD2AE9A74100980DA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28AF67CC2AE9A74100980DA6 /* Preview Assets.xcassets */; };
+		28AF67D62AE9A7C900980DA6 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AF67D52AE9A7C900980DA6 /* Task.swift */; };
+		28AF67D82AE9A85400980DA6 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AF67D72AE9A85400980DA6 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		28AF67C72AE9A74000980DA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		28AF67C92AE9A74100980DA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28AF67CC2AE9A74100980DA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		28AF67D52AE9A7C900980DA6 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		28AF67D72AE9A85400980DA6 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		28AF67C42AE9A74000980DA6 /* kanban-drag-and-drop */ = {
 			isa = PBXGroup;
 			children = (
+				28AF67D42AE9A7AF00980DA6 /* View */,
+				28AF67D32AE9A7A300980DA6 /* Modal */,
 				28AF67C52AE9A74000980DA6 /* kanban_drag_and_dropApp.swift */,
 				28AF67C72AE9A74000980DA6 /* ContentView.swift */,
 				28AF67C92AE9A74100980DA6 /* Assets.xcassets */,
@@ -65,6 +71,22 @@
 				28AF67CC2AE9A74100980DA6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		28AF67D32AE9A7A300980DA6 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				28AF67D52AE9A7C900980DA6 /* Task.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		28AF67D42AE9A7AF00980DA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				28AF67D72AE9A85400980DA6 /* Home.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +160,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AF67C82AE9A74000980DA6 /* ContentView.swift in Sources */,
+				28AF67D62AE9A7C900980DA6 /* Task.swift in Sources */,
+				28AF67D82AE9A85400980DA6 /* Home.swift in Sources */,
 				28AF67C62AE9A74000980DA6 /* kanban_drag_and_dropApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
